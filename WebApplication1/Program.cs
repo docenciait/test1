@@ -8,8 +8,8 @@ namespace WebApplication1
             var app = builder.Build();
 
             app.MapGet("/", () => "Hello World!");
-            app.MapGet("/secure", () => "Ciao World!");
-            app.MapGet("/secure2", () => "Ciao World!");
+            app.MapGet("/secure-data", () => "Ciao World!");
+         
 
 
             app.Run();
