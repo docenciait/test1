@@ -10,6 +10,7 @@ namespace WebApplication1
             app.MapGet("/", () => "Hello World!");
             app.MapGet("/secure-data", () => "Ciao World!");
             app.MapGet("/secure-data3", () => "Ciao World!");
+            app.MapGet("/secure-data4", () => "Ciao World!");
 
 
             app.Run();
